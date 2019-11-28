@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style-menu.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css-menu-tab-2/jquery.scrolling-tabs.css">
+    <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <Style>
+    .fa-map-marker
+    {
+        margin-right: 12px !important;
+    }
+    .post-time
+    {
+        color: #ccc;
+        font-style: italic;
+        margin-top: -10px;
+    }
+    </Style>
+</head>
+<body style="background: white">
+    <header>
+        <div class="stiki">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="row header-text-top">
+                            <div class="col-md-6 col-sm-6 col-6">
+                                <div class="text-center">
+                                    <a href="#">đơn vị tổ chức</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6">
+                                <div class="text-center">
+                                    <a href="#">đơn vị thực hiện</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="header-langauge">
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                                    VN <img src="img/vietnam.jpg" class="img-fluid">
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li class="dropdown-item">
+                                        <a href="#">
+                                            VN
+                                            <img src="img/vietnam.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                         <a href="#">
+                                            VN
+                                            <img src="img/vietnam.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                         <a href="#">
+                                            VN
+                                            <img src="img/vietnam.jpg" class="img-fluid">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="header-center">
+            <button id="open-menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <button id="open-search-form">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="row header-center-image">
+                            <div class="col-md-6 col-sm-6 col-6 text-center">
+                                <div class="logo-1">
+                                    <a href="index.html"><img  src="img/Group1.png"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6 text-center">
+                                <div class="logo-1">
+                                    <a href="index.html"><img src="img/logo_vgs 1.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form id="search-form-mobile">
+                            <input type="text" name="" placeholder="Enter keywords">
+                            <button type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                        <nav class="main-nav">
+                            <ul>
+                                <li>
+                                    <a href="index.html" class="smooth" title="">trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="vechungtoi1.html" class="smooth" title="">giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="giaidau.html" class="smooth" title="">giải đấu</a>
+                                </li>
+                                <li>
+                                    <a href="taitro.html" class="smooth" title="">tài trợ</a>
+                                </li>
+                                <li>
+                                    <a href="videogiaidau.html" class="smooth" title="">video giải đấu</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="smooth" title="">trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="smooth" title="">trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="smooth" title="">trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="smooth" title="">trang chủ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="muave1.html" class="smooth" title="">mua vé</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="smooth" title="">golfnewtv</a>
+                                </li>
+                                 <li>
+                                    <a href="#" class="smooth" title="">livescore</a>
+                                </li>
+                                <li>
+                                    <button id="search-form-btn" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <form class="search-form-header">
+                                        <input type="text" name="" placeholder="Nhập từ khóa cần tìm">
+                                        <button type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header-banner">
+                    <img src="img/bn1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="header-infor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 truy-van">
+                        <p><b>Truy vấn</b></p>
+                        <p>Thông tin cá nhân tại giải</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <form class="form-dki">
+                            <div class="row">
+                                <input style="width: 223px; height: 30px; border: none;" type="text" placeholder="Nhập số điện thoại đã đăng kí">
+                                    <select style="width: 223px; height: 30px; border: none">
+                                          <option>Chon giai dau</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                    </select>
+                                <button style="border-radius: 0">Tìm kiếm</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="hotline-info">
+                            <p><b> Hotline</b></p>
+                            <p>  0984.888.666  Ms. Phượng Anh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="top-content">
+        <div class="container-fluid">
+        <div class="col-lg-12">
+            <h1 style="text-align: center;">
+                Lịch thi đấu 2020
+            </h1>
+            <p style="text-align: center;"><a href="#">Xem cả mùa giải 20 ngày thi đấu chỉ với 1000.000 VND. Vé chỉ bán tới hết 31/2/2020.</a></p>
+        </div>
+    </div>
+<div class="container text-center lich-box">
+    <div class="row">
+            <ul class="nav nav-tabs menu-tab-list" role="tablist">
+                <li role="presentation"><a href="#tab1" role="tab" data-toggle="tab">vcc</a></li>
+                <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">vsc</a></li>
+                <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">vao</a></li>
+                <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab">vlao</a></li>
+                <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab">vjo</a></li>
+                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">vmc</a></li>
+                  <li role="presentation"><a href="#tab1" role="tab" data-toggle="tab">vcc</a></li>
+                <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">vsc</a></li>
+                <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">vao</a></li>
+                <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab">vlao</a></li>
+                <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab">vjo</a></li>
+                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">vmc1</a></li>
+            </ul>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="tab1">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">vô địch golf các clb việt nam</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab2">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">vô địch golf các clb châu âu</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab3">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">vô địch golf các clb châu á</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab4">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ châu phi</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab5">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ châu mỹ</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="img-content">
+                    <img src="img/group2.png">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ thế giới</p></a>
+                <div class="cont-all">
+                    <div class="cont-1">
+                        <p><i class="fa fa-calendar "></i> 15/03/2020</p>
+                        <p><i class="fa fa-map-marker"></i> Sân FLC Thanh Hóa</p>
+                    </div>
+                    <div class="cont-2">
+                        <p><i class="fa fa-file-pdf-o"></i> <a href="#">Điều lệ giải</a></p>
+                        <p><i class="fa fa-history"></i> <a href="#">Lịch sử giải đấu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 style-top">
+                <div class="all-ct-button">
+                    <div class="button-chi-tiet bt1">
+                        <div class="button-price-ct-1">
+                            <p>4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button>THAM GIA</button>
+                        </div>
+                    </div>
+                    <div class="button-chi-tiet bt2">
+                        <div class="button-price-ct">
+                            <p style="color:#0CACA7;">4.000.000 VND</p>
+                        </div>
+                        <div class="button-text">
+                            <button style="background:  #0CACA7;">THAM GIA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    </div>
+</div>
+    </div>
+            <div class="container">
+                <div class="row">
+                        <div class="col-lg-12 col-xs-12 qc-mobile">
+                            <a href="#"><div style="margin:20px 0px;" class="qc"></div></a>
+                        </div>
+                        <div class="col-lg-12 col-xs-12">
+                            <a href="#"><h2 style="text-align: center; text-transform: uppercase; padding: 0px;">Tin giải đấu</h2></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                                <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                                <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"> <img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                                <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
+                            </div>
+                        </div>
+                        <div style="text-align: center;" class="col-lg-12 col-xs-12">
+                            <button class="btn-all">Xem thêm</button>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 qc-mobile">
+                            <a href="#"><div style="margin-bottom: 50px;" class="qc"></div></a>
+                        </div>
+                </div>
+            </div>
+        <div class="all-video-home">
+            <div style="background: #2F2F2F;" class="container">
+                <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#"><p style="text-align: center; text-transform: uppercase;font-size:32px;margin-top: 30px;">Video giải đấu</p></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="post-main">
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
+                                <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
+                            </div>
+                        </div>
+                        <div style="text-align: center;" class="col-lg-12 col-xs-12">
+                            <button class="btn-all">Xem thêm</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <section class="center slider">
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+        <div style="max-width: 150px">
+            <img style="max-width: 150px;" src="img/trucquang.png">
+        </div>
+    </section>
+    <footer>
+        <div class="all-box">
+            <div style="background: none" class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                        <div class="logo-footer">
+                            <img src="img/logo-footer.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-xs-12">
+                        <h5 style="font-weight: bold"> Mọi thông tin, đóng góp vui lòng liên hệ:</h5>
+                        <p><i style="margin-right: 0 !important;" class="fa fa-map-marker"></i> VGS Event - Tầng 2, 101 ngách 5, ngõ 92 Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội</p>
+                        <p><i class="fa fa-phone"></i> Hotline: 0988888888</p>
+                        <p><i class="fa fa-envelope-square"></i> Email: sponsor@vgsholding.com</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-xs-12 ft">
+                        <div class="icon">
+                            <p class="icon-footer"><i class="fa fa-facebook fa-2x"></i></p>
+                            <p class="icon-footer"><i class="fa fa-youtube fa-2x"></i></p>
+                            <p class="icon-footer"><i class="fa fa-google fa-2x"></i></p>
+                            <p class="icon-footer"><i class="fa fa-camera fa-2x"></i></p>
+                        </div>
+                        <p class="Copyright"> Copyright © 2018 by VGSholding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top" title="Back to top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script src="slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
+    <script src="js-menu-tab-2/st-demo.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/back-to-top.js"></script>
+</html>
