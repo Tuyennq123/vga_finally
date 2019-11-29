@@ -62,10 +62,16 @@
 .scrtabs-tabs-fixed-container ul.nav-tabs > li {
   white-space: nowrap;
   margin-bottom: 0px;
-  width: 190px;
+  width: 194.92px;
   text-transform: uppercase;
 }
 @media  only screen and (max-width: 560px){
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap;
+  margin-bottom: 0px;
+  width: 100px;
+  text-transform: uppercase;
+}
   .scrtabs-tab-scroll-arrow-left
   {
     display: none !important;

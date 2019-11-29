@@ -1157,12 +1157,12 @@ header .header-center .main-nav ul .search-form-header button {
     background: white !important;
 }
 @media only screen and (max-width: 1024px){
+     header .header-center .main-nav ul li a
+     {
+        font-size: 12px;
+     }
     header .header-center .main-nav ul li:not(:last-child) {
-    margin-right: 0.8% !important
+    margin-right: 1.7% !important;
     }
-}
-@media only screen and (max-width: 1024px){
-    header .header-center .main-nav ul li a {
-        font-weight: bold;
 }
 }
