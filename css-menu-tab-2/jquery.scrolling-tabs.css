@@ -65,6 +65,21 @@
   width: 194.92px;
   text-transform: uppercase;
 }
+@media  only screen and (max-width: 1024px){
+
+  .scrtabs-tab-scroll-arrow-left
+  {
+    display: none !important;
+  }
+   .scrtabs-tab-scroll-arrow-right
+  {
+    display: none !important;
+  }
+  .scrtabs-tabs-fixed-container
+  {
+    width: 100% !important;
+  }
+}
 @media  only screen and (max-width: 560px){
   .scrtabs-tabs-fixed-container ul.nav-tabs > li {
   white-space: nowrap;

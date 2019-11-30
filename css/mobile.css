@@ -39,6 +39,10 @@
     display: none;
     border: 1px solid #e6e6e6;
   }
+  header .header-center .main-nav .fa-angle-down
+  {
+    color: black;
+  }
 /*  header .header-center .main-nav.active {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -88,3 +92,4 @@
     width: 50%;
   }
 }
+
