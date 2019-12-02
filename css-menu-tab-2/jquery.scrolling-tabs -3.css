@@ -105,7 +105,7 @@
   .scrtabs-tabs-fixed-container ul.nav-tabs > li {
   white-space: nowrap;
   margin-bottom: 0px;
-  width: 100px;
+  max-width: 360px;
   text-transform: uppercase;
 }
   .scrtabs-tab-scroll-arrow-left

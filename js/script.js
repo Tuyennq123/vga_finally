@@ -93,7 +93,6 @@ GUI.backToTop = function(){
 	} 
 }
 
-
 GUI.activeMenu = function() {
 	var btn = $('#open-menu');
 	var menu = $('.main-nav');
@@ -118,7 +117,12 @@ GUI._init = function(){
 	GUI.mMenu();
 	GUI.activeMenu();
 	GUI.searchFformMobile();
+	GUI.backToTop();
+
 }
 $(function() {
 	GUI._init();
-}); 
+});
+
+
+

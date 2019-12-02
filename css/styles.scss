@@ -1,5 +1,35 @@
 body
 {	
+	
+	.fix-bt-giai-dau
+	{
+		margin-bottom: 20px;
+	}
+	.info-user
+	{
+		font-size: 16px;
+	}
+	.user
+	{
+		font-size: 16px;
+	}
+	.back-to-top{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: inline-block;
+        background-color: #71bf44;
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+        z-index: 999;
+        position: fixed;
+        bottom: 30px;
+        right: 10px;
+        display: none;
+        color: #fff;
+        background: #004251;
+    }
 	font-family: Helvetica !important;
 
 	.text-gt
@@ -30,6 +60,15 @@ body
 }
 
 		.tournaments-system-content {
+			.fa {
+				font-size: 20px !important;
+				color: #ccc;
+				margin-right: 5px;
+			}
+			font-size: 16px;
+		}
+		.fix-icon-all
+		{
 			.fa {
 				font-size: 20px !important;
 				color: #ccc;
@@ -109,6 +148,7 @@ body
 		}
 		.form-dki
 		{
+			font-size: 16px;
 			.form-control
 			{
 				margin-top: 15px;
@@ -299,11 +339,13 @@ body
 	{
 		color: #F26F21;
 		font-weight: bold;
+		font-size: 20px;
 	}
 	.tournaments-price2
 	{
 		color:#0CACA7;
 		font-weight: bold;
+		font-size: 20px;
 
 	}
 	.button-price1
@@ -688,7 +730,6 @@ body
 			border-radius: 10px;
 			padding: 10px;
 			margin-bottom: 40px;
-			height: 380px;
 			border: 1px solid #ccc;
 			width: 100%;
 			button
@@ -715,7 +756,6 @@ body
 				border-bottom: 1px dashed #878787;
 				padding: 10px 0px;
 				max-width: 340px;
-				height: 100px;
 			}
 			.name
 			{
@@ -833,6 +873,7 @@ body
 		line-height: 15px;
 		margin-top: 50px;
 		width: 100%;
+		font-size: 16px;
 		p
 		{
 			line-height: 26px;
@@ -885,17 +926,17 @@ body
 		height:24px;
 	}
 	.nav-post{
-		margin:30px 0px 30px 0px;
 		text-decoration: none;
 		list-style:none;
+		margin: 20px 0px;
 
 	}
 	.list-post{
 		width:100%;
-
 		font-size: 30px;
 		border-bottom:0.05em solid #959595;
 		margin-bottom: 30px;
+		margin-top: 10px;
 	}
 
 	.post-time{
@@ -1095,6 +1136,7 @@ footer
 	}
 }
 @media only screen and (max-width: 1024px) {
+	
 
 	.header-text-top
 	{
@@ -1121,10 +1163,6 @@ footer
 	.all-box .tournaments .tournaments-desc .tournaments-button
 	{
 		margin-top: 10px;
-	}
-	.all-box .tournaments .tournaments-system
-	{
-		height: 370px;
 	}
 	.vgs-desc
 	{
@@ -1286,6 +1324,7 @@ footer
 }
 
 @media only screen and (max-width: 768px){
+
 	.tick-1
 	{
 		border-top: 1px dashed #8C8C8C !important;
@@ -1498,7 +1537,6 @@ footer
 
 	.all-box .tournaments .tournaments-system
 	{
-		height:280px;
 		.tournaments-system-title
 		{
 			border:none;
@@ -1678,10 +1716,7 @@ footer
 	}
 }
 @media only screen and (max-width: 499px){
-	.all-box .tournaments .tournaments-system
-	{
-		height: 260px;
-	}
+
 	.all-box .am .time-day
 	{
 		//width: 92%;
@@ -1695,6 +1730,33 @@ footer
 }
 
 @media only screen and (max-width: 480px){
+.modal-content
+{
+		.modal-title
+	{
+		font-size: 16px !important;
+	}
+	.fa-times
+	{
+		font-size: 26px;
+	}
+}
+	.info-user
+	{
+		font-size: 14px !important;
+	}
+	.law
+	{
+		font-size: 14px !important;
+	}
+	.user
+	{
+		font-size: 14px !important;
+	}
+	.fix-icon-all
+		{
+			font-size: 13px !important;
+		}
 		.tournaments-system-content {
 			font-size: 14px !important;
 		}
@@ -1839,10 +1901,7 @@ footer
 	}
 }
 @media  only screen and (max-width: 375px) {
-	.all-box .tournaments .tournaments-system
-	{
-		height: 300px;
-	}
+	
 	header{
 		#open-search-form
 		{
@@ -1920,7 +1979,6 @@ footer
 
 	/////////////style giaidau//////////
 	.all-box .tournaments .tournaments-system{
-		height: 300px;
 		.tournaments-system-content
 		{
 			padding-left: 0;
